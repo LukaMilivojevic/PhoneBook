@@ -18,9 +18,18 @@ public:
 
 
 private:
+	std::string filepath_;
 	std::list<Contact*> contacts;
+	std::list<Contact*> history;
 	Tries tree;
 	int option(const std::string& s);
+	void search();
+	Contact* select();
+	bool search(Contact* newContact);
+	bool addNewContact(Contact* newContact);
+	void call(Contact* toCall);
+	void deleteContact(Contact* selected);
+	bool editContact(Contact* selected);
 
 	enum OPTIONS
 	{

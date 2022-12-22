@@ -2,7 +2,7 @@
 #define TRIES_H
 #include "Contact.h"
 #include <list>
-
+#include <string>
 
 class Tries {
 public:
@@ -11,7 +11,11 @@ public:
 
 	void insert(Contact* cont);
 
-	bool search();
+	std::list<Contact*>* search(const std::string& query);
+
+	Contact* searchOne(const std::string& query);
+
+	void deleteContact(Contact* contact);
 
 private:
 	static const int size = 2 * 26 + 10 + 1; //velika i mala slova + cifre + space

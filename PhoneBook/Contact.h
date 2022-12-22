@@ -8,11 +8,14 @@ class Contact
 public:
 	Contact();
 	virtual ~Contact();
-	Contact(const std::string& name, const std::string& phone) : name(name), phone(phone) {};
+	Contact(std::string& name, std::string& phone) : name(name), phone(phone) {};
 
 	friend std::ostream& operator<<(std::ostream& os, const Contact& contact);
 
 	std::string getName();
+
+	void setName(const std::string& str);
+	void setPhone(const std::string& str);
 
 private:
 	std::string name, phone;

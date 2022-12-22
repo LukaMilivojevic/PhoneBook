@@ -131,15 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="Contact.h" />
     <ClInclude Include="PhoneBook.h" />
+    <ClInclude Include="PhonebookException.h" />
     <ClInclude Include="Tries.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="Contact.cpp" />
     <ClCompile Include="PhoneBook.cpp" />
+    <ClCompile Include="PhonebookException.cpp" />
     <ClCompile Include="Tries.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

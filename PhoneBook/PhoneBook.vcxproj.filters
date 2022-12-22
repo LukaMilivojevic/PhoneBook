@@ -21,10 +21,10 @@
     <ClInclude Include="Contact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinarySearchTree.h">
+    <ClInclude Include="Tries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tries.h">
+    <ClInclude Include="PhonebookException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClCompile Include="Contact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearchTree.cpp">
+    <ClCompile Include="Tries.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tries.cpp">
+    <ClCompile Include="PhonebookException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
